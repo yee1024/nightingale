@@ -29,25 +29,21 @@ _test
 /build
 /dist
 /etc/*.local.yml
-/etc/log/log.test.json
+/etc/plugins/*.local.yml
 /data*
+/tarball
+/run
+/vendor
+/tmp
+/pub
 
+.alerts
 .idea
 .index
 .vscode
 .DS_Store
 .cache-loader
+queries.active
 
 /n9e-*
-
-/src/modules/index/index
-/src/modules/collector/collector
-/src/modules/transfer/transfer
-/src/modules/tsdb/tsdb
-/src/modules/monapi/monapi
-
-/web/node_modules
-/web/.cache-loader
-/web/yarn.lock
-
 
